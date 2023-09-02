@@ -1,0 +1,58 @@
+.nav-link{
+    height: 10vh;
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.nav-text, .btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: azure;
+    border-radius: 20px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.nav-text:hover, .btn:hover{
+    background-color: aquamarine;
+}
+
+.table-container{
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+    padding: 20px;
+    border-collapse: collapse;    
+}
+
+table{
+    margin: auto;
+}
+
+.text-field{
+    margin-top: 10px;
+}
+
+label{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+input{
+    height: 2vh;
+    padding: 5px;
+    width: 200px;
+}
+
+.addBooks{
+    text-align: center;
+}
