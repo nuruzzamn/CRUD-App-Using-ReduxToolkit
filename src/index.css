@@ -56,3 +56,47 @@ input{
 .addBooks{
     text-align: center;
 }
+
+/* code for error page design */
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-color: #f4f4f4;
+  }
+  
+  .error-content {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .error-title {
+    font-size: 48px;
+    color: #ff5733; /* Customize the title color */
+  }
+  
+  .error-description {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .error-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Customize the background color */
+    color: #fff; /* Customize the text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .error-link:hover {
+    background-color: #0056b3; /* Customize the hover background color */
+  }
+  
