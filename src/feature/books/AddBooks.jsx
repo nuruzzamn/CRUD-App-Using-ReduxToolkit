@@ -8,7 +8,8 @@ const AddBooks = () => {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
 
-  const book = useSelector((state) => state.books.books.length);
+  // const book = useSelector((state) => state.books.books.length);
+  const uid = new Date().getTime().toString();
 
   const dispatch = useDispatch();
 
@@ -17,7 +18,8 @@ const AddBooks = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const addData = { id: book + 1, title, author };
+    // const addData = { id: book + 1, title, author };
+    const addData = { id: uid, title, author };
     dispatch(fAddBooks(addData));
 
     navigate("/show-books");
