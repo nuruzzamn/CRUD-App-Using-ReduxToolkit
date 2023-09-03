@@ -7,13 +7,13 @@ const Home = () => {
   console.log("Home", allBooks);
   return (
     <div>
-      <section>
+      <section className="homePage">
         {allBooks &&
           allBooks.map((book) => {
             return (
               <article key={book.id}>
-                <h1>{book.title}</h1>
-                <p>{book.author}</p>
+                <h1>Title : {book.title}</h1>
+                <p>Author Name : {book.author}</p>
               </article>
             );
           })}

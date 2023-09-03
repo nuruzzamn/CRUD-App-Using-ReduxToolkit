@@ -19,7 +19,7 @@ const BooksView = () => {
         <table>
           <thead>
             <tr>
-              <th>ID</th>
+              {/* <th>ID</th> */}
               <th>TITLE</th>
               <th>AUTHOR NAME</th>
               <th colSpan="2">ACTION</th>
@@ -32,15 +32,14 @@ const BooksView = () => {
                 const { id, title, author } = book;
                 return (
                   <tr key={id}>
-                    <td>{id}</td>
+                    {/* <td>{id}</td> */}
                     <td>{title}</td>
                     <td>{author}</td>
                     <td>
                       <Link to="/update-books" state={{ id, title, author }}>
                         <button className="btn">Update</button>
                       </Link>
-                    </td>
-                    <td>
+                   
                       <button
                         className="btn"
                         onClick={() => handleDelete(book.id)}
